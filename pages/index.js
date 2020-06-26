@@ -31,19 +31,3 @@ class Index extends React.Component {
 }
 
 export default Index;
-
-
-
-
-// import Header from './layouts/Header';
-
-// const Index = () => (
-//   <>
-//     <Header />
-
-//     <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-//       <h1></h1>
-
-//     </main>
-//   </>
-// )
