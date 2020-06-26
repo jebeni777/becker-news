@@ -15,6 +15,42 @@ const StoryList = ({ stories }) => (
                 </div>
             </div>
         ))}
+
+        <style jsx>
+            {`
+                .story-list {
+                    padding: 0 1em;
+                }
+                .story {
+                    padding: 1em 0;
+                }
+                .story-title {
+                    font-size: 1rem;
+                    font-weight: 400;
+                    margin: 0;
+                    margin-bottom: 0.5rem;
+                }
+                .story-title a {
+                    color: #444444;
+                    text-decoration: none;
+                }
+                .story-title a:hover,
+                .story-detail a:hover {
+                    text-decoration: underline;
+                }
+                .story-detail {
+                    font-size: 0.8rem;
+                    font-weight: bold;
+                }
+                .story-detail span {
+                    margin-right: 1rem;
+                }
+                .story-detail a {
+                    color: #ffa500;
+                    text-decoration: none;
+                }
+            `}
+        </style>
     </div>
 );
 
