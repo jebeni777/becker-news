@@ -33,7 +33,7 @@ class Index extends React.Component {
     }
 
     return (
-      <Layout title="Becker News TESTING">
+      <Layout title="Becker News">
         <StoryList stories={stories} />
 
         <button>
