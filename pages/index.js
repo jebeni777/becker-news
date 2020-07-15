@@ -5,6 +5,7 @@ import StoryList from '../components/StoryList';
 import Layout from '../components/Layout';
 
 
+
 class Index extends React.Component {
   static async getInitialProps({ req, res, query }) {
     let stories;
@@ -32,7 +33,7 @@ class Index extends React.Component {
     }
 
     return (
-      <Layout title="Becker News">
+      <Layout title="Becker News TESTING">
         <StoryList stories={stories} />
 
         <button>
