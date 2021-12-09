@@ -11,7 +11,7 @@
   "dependencies": {
     "hackernews-api": "^1.0.0",
     "isomorphic-fetch": "^2.2.1",
-    "next": "^9.3.3",
+    "next": "^11.1.3",
     "react": "^16.13.1",
     "react-bootstrap": "^0.33.1",
     "react-dom": "^16.13.1"
